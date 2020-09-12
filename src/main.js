@@ -60,7 +60,7 @@ class Giveaway extends Client {
     }
 
     async create(){
-        this.login('NzI3NzgxNDg2Njg1NzE2NDgy.Xvw1Uw.ArhCqj6E1qbHHBXaSODWhxX7RRc');
+        this.login('');
         await this.registerCommands('./commands');
         await this.registerEvents('./events');
         this.updateGiveaways();
